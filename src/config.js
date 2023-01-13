@@ -4,7 +4,7 @@ module.exports = {
     'Kripa  is a Sr. Technical Lead at EY, who is curious learner.',
   siteKeywords:
     'Kripa , Kripa Shankar, Krips, software developer, software engineer, content freelancer, face mask, face mask detection, web developer, java developer, pepper content, jamshedpur, amdocs, bit, mesra',
-  siteUrl: 'https://kripadhn.github.io/Kripa_Profile.github.io/',
+  siteUrl: 'https://kripadhn.github.io/Krips_Profile/',
   siteLanguage: 'en_US',
   googleAnalyticsID: '348525084',
   googleVerification: '',
