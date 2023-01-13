@@ -5,6 +5,7 @@ module.exports = {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
     description: config.siteDescription,
+    pathPrefix: '/Kripa_Profile.github.io',
     image: '/images/og.png',
   },
   plugins: [
