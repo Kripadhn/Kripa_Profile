@@ -5,7 +5,7 @@ module.exports = {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
     description: config.siteDescription,
-    pathPrefix: '/Kripa_Profile.github.io',
+    pathPrefix: '/Krips_Profile',
     image: '/images/og.png',
   },
   plugins: [
@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
