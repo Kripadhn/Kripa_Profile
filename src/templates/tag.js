@@ -67,7 +67,8 @@ const TagTemplate = ({ pageContext, data, location }) => {
 
         <ul className="fancy-list">
           {edges.map(({ node }) => {
-            const { title, slug, date, tags } = node.frontmatter;
+            const { title, slug, date, tags } = node.frontmatter || {};
+            const safeDate = date ? new Date(date) : null;
             return (
               <li key={slug}>
                 <h2>
@@ -75,11 +76,13 @@ const TagTemplate = ({ pageContext, data, location }) => {
                 </h2>
                 <p className="subtitle">
                   <time>
-                    {new Date(date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
+                    {safeDate
+                      ? safeDate.toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                        })
+                      : 'Unknown date'}
                   </time>
                   <span>&nbsp;&mdash;&nbsp;</span>
                   {tags &&

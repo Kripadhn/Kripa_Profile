@@ -145,8 +145,9 @@ const PensievePage = ({ location, data }) => {
             {posts.length > 0 &&
               posts.map(({ node }, i) => {
                 const { frontmatter } = node;
-                const { title, description, slug, date, tags } = frontmatter;
-                const d = new Date(date);
+                const { title, description, slug, date, tags } = frontmatter || {};
+                const d = date ? new Date(date) : null;
+                const tagsList = tags || [];
 
                 return (
                   <StyledPost key={i} tabIndex="0">
@@ -163,7 +164,7 @@ const PensievePage = ({ location, data }) => {
                         </Link>
                       </header>
                       <footer>
-                        <StyledDate>{`${d.toLocaleDateString()}`}</StyledDate>
+                        <StyledDate>{d ? `${d.toLocaleDateString()}` : 'Unknown date'}</StyledDate>
                         <StyledTags>
                           {tags.map((tag, i) => (
                             <li key={i}>

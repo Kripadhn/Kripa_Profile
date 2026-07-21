@@ -36,8 +36,16 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { frontmatter, html } = data.markdownRemark || {};
+  const { title, date, tags } = frontmatter || {};
+  const parsedDate = date ? new Date(date) : null;
+  const formattedDate = parsedDate
+    ? parsedDate.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    : 'Unknown date';
 
   return (
     <Layout location={location}>
@@ -55,13 +63,7 @@ const PostTemplate = ({ data, location }) => {
         <StyledPostHeader>
           <h1 className="medium-title">{title}</h1>
           <p className="subtitle">
-            <time>
-              {new Date(date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
-            </time>
+            <time>{formattedDate}</time>
             <span>&nbsp;&mdash;&nbsp;</span>
             {tags &&
               tags.length > 0 &&

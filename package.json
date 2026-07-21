@@ -5,21 +5,29 @@
   "author": "Kripa Shankar <Krips.dhn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kripadhn/Kripa_Profile.github.io"
+    "url": "https://github.com/Kripadhn/Kripa_Profile"
   },
   "homepage": "https://kripadhn.github.io/Kripa_Profile.github.io/",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
+  "preinstall": "node -e \"const major = parseInt(process.versions.node.split('.')[0], 10); if (major < 18 || major >= 19) { console.error('Please use Node 18.x for this project'); process.exit(1); }\"",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "gatsby clean && gatsby build --prefix-paths",
+    "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master"
+  },
+  "engines": {
+    "node": ">=18 <19",
+    "npm": ">=8 <11"
+  },
+  "overrides": {
+    "cheerio": "1.0.0-rc.10"
   },
   "husky": {
     "hooks": {
@@ -42,9 +50,9 @@
     "gatsby-plugin-google-analytics": "^4.6.0",
     "gatsby-plugin-manifest": "^4.6.0",
     "gatsby-plugin-netlify": "^4.1.0",
-    "gatsby-plugin-offline": "^5.6.0",
+    "gatsby-plugin-offline": "^4.6.0",
     "gatsby-plugin-react-helmet": "^5.6.0",
-    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-robots-txt": "1.7.0",
     "gatsby-plugin-sharp": "^4.6.0",
     "gatsby-plugin-sitemap": "^5.6.0",
     "gatsby-plugin-styled-components": "^5.6.0",
@@ -69,7 +77,7 @@
     "@upstatement/eslint-config": "1.0.1",
     "@upstatement/prettier-config": "^1.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.8.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",

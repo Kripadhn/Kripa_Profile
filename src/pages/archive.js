@@ -133,10 +133,11 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const { date, github, external, title, tech, company } = node.frontmatter;
+                  const { date, github, external, title, tech, company } = node.frontmatter || {};
+                  const year = date ? new Date(date).getFullYear() : '—';
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
-                      <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
+                      <td className="overline year">{year}</td>
 
                       <td className="title">{title}</td>
 
@@ -145,8 +146,8 @@ const ArchivePage = ({ location, data }) => {
                       </td>
 
                       <td className="tech hide-on-mobile">
-                        {tech.length > 0 &&
-                          tech.map((item, i) => (
+                        {techItems.length > 0 &&
+                          techItems.map((item, i) => (
                             <span key={i}>
                               {item}
                               {''}
