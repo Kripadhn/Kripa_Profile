@@ -5,21 +5,22 @@
   "author": "Kripa Shankar <Krips.dhn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kripadhn/Kripa_Profile.github.io"
+    "url": "https://github.com/Kripadhn/Kripa_Profile"
   },
   "homepage": "https://kripadhn.github.io/Kripa_Profile.github.io/",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
+  "preinstall": "node -e \"const major = parseInt(process.versions.node.split('.')[0], 10); if (major < 18 || major >= 19) { console.error('Please use Node 18.x for this project'); process.exit(1); }\"",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "gatsby clean && gatsby build --prefix-paths",
+    "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master"
   },
   "husky": {
     "hooks": {
