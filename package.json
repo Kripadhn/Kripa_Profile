@@ -20,14 +20,7 @@
     "start": "npm run develop",
     "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master"
-  },
-  "engines": {
-    "node": ">=18 <19",
-    "npm": ">=8 <11"
-  },
-  "overrides": {
-    "cheerio": "1.0.0-rc.10"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "husky": {
     "hooks": {
