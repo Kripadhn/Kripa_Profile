@@ -19,7 +19,7 @@
     "start": "npm run develop",
     "serve": "npm run build && gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "npm run build && gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": ">=18 <19",
