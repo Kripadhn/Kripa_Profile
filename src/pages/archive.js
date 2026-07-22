@@ -151,7 +151,6 @@ const ArchivePage = ({ location, data }) => {
                           techItems.map((item, i) => (
                             <span key={i}>
                               {item}
-                              {''}
                               {i !== techItems.length - 1 && (
                                 <span className="separator">&middot;</span>
                               )}
