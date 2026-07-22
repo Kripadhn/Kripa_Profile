@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/Kripadhn/Kripa_Profile"
   },
-  "homepage": "https://kripadhn.github.io/Kripa_Profile.github.io/",
+  "homepage": "https://kripadhn.github.io/Kripa_Profile",
   "keywords": [
     "gatsby"
   ],
@@ -20,7 +20,17 @@
     "start": "npm run develop",
     "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+  },
+  "engines": {
+    "node": ">=18 <19",
+    "npm": ">=8 <11"
+  },
+  "overrides": {
+    "cheerio": "1.0.0-rc.10",
+    "terser-webpack-plugin": {
+      "schema-utils": "^3.3.0"
+    }
   },
   "husky": {
     "hooks": {

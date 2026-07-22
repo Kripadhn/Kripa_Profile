@@ -146,8 +146,9 @@ const ArchivePage = ({ location, data }) => {
                       </td>
 
                       <td className="tech hide-on-mobile">
-                        {techItems.length > 0 &&
-                          techItems.map((item, i) => (
+                        {tech &&
+                          tech.length > 0 &&
+                          tech.map((item, i) => (
                             <span key={i}>
                               {item}
                               {''}
