@@ -5,7 +5,7 @@
   "author": "Kripa Shankar <Krips.dhn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kripadhn/Kripa_Profile"
+    "url": "https://github.com/Kripadhn/Kripa_Profile/"
   },
   "keywords": [
     "gatsby"
@@ -13,11 +13,11 @@
   "license": "MIT",
   "preinstall": "node -e \"const major = parseInt(process.versions.node.split('.')[0], 10); if (major < 18 || major >= 19) { console.error('Please use Node 18.x for this project'); process.exit(1); }\"",
   "scripts": {
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby clean && gatsby build --prefix-paths",
     "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "npm run build && gatsby serve",
+    "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "deploy": "npm run build && gh-pages -d public -b gh-pages"
   },
