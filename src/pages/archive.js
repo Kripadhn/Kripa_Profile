@@ -135,7 +135,7 @@ const ArchivePage = ({ location, data }) => {
                 projects.map(({ node }, i) => {
                   const { date, github, external, title, tech, company } = node.frontmatter || {};
                   const year = date ? new Date(date).getFullYear() : '—';
-                  const techItems = Array.isArray(tech) ? tech : [];
+                  const techItems = Array.isArray(tech) ? tech : tech ? [tech] : [];
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{year}</td>
