@@ -22,6 +22,16 @@
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
+  "engines": {
+    "node": ">=18 <19",
+    "npm": ">=8 <11"
+  },
+  "overrides": {
+    "cheerio": "1.0.0-rc.10",
+    "terser-webpack-plugin": {
+      "schema-utils": "^3.3.0"
+    }
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
