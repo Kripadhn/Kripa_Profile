@@ -10,7 +10,7 @@ skills:
   - 'Data Engineering & Integration: Azure Data Factory, Databricks, Synapse, PySpark, Real-time & Batch data pipelines, API design & integration'
   - 'Scrum Practices & Code Versioning Tools: Jira, Azure Devops, Git'
   - 'Code and Scripts: Python, C#, .NET/.NET Core, SQL; JavaScript, ReactJS, FastAPI, Node.js'
-  - 'Api Testing and Documentation: WSO2, Postman'
+  - 'API Testing and Documentation: WSO2, Postman'
 
 ---
 
