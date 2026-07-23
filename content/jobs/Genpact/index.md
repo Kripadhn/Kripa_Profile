@@ -6,6 +6,10 @@ range: 'Feb 2015 - Oct 2017'
 url: 'https://www.genpact.com/'
 ---
 
-- Drafted all the website content and promotional templates on HubSpot for the startup.
-- Reviewed the tech blogs and helped the Sales & Marketing Team.
-- View [CERTIFICATE]
+- 'Architected and led .NET solutions to align with customer requirements and Agile practices, boosting user productivity by 60% and meeting SLA targets'
+
+- 'Optimized and Improved post-deployment systems through analytics and cross-functional collaboration'
+
+- 'Modernized legacy app for 1,000+ users, achieving a 50% increase in productivity'
+
+- 'Managed project delivery by task estimation, assignment, and mentoring, boosting team performance'

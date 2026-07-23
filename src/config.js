@@ -9,8 +9,8 @@ module.exports = {
   googleAnalyticsID: '348525084',
   googleVerification: '',
   name: 'Kripa ',
-  location: 'Gr. Noida, India',
-  email: 'Krips.dhn@gmail.com',
+  location: 'Bangalore, India',
+  email: 'itzkripa@gmail.com',
   github: 'https://github.com/Kripadhn',
   twitterHandle: '@kripadhn',
   socialMedia: [
@@ -28,7 +28,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/Krips_Insta',
+      url: 'https://www.instagram.com/artpaletteai/',
     },
     {
       name: 'Twitter',
