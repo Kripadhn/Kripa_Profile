@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, withPrefix } from 'gatsby';
 import PropTypes from 'prop-types';
 import { navLinks } from '@config';
 import styled from 'styled-components';
@@ -107,7 +107,10 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
+          <ResumeLink
+            href={withPrefix('/resume.pdf')}
+            target="_blank"
+            rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>
         </NavLinks>
