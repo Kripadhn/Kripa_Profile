@@ -12,4 +12,4 @@ url: 'https://www.genpact.com/'
 
 - Modernized legacy app for 1,000+ users, achieving a 50% increase in productivity
 
-- Managed project delivery by task estimation, assignment, and mentoring, boosting team performance'
+- Managed project delivery by task estimation, assignment, and mentoring, boosting team performance
