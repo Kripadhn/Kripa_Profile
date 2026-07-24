@@ -5,9 +5,8 @@
   "author": "Kripa Shankar  <Krips.dhn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kripadhn/Kripa_Profile"
+    "url": "https://github.com/Kripadhn/Kripa_Profile/"
   },
-  "homepage": "https://kripadhn.github.io/Kripa_Profile",
   "keywords": [
     "gatsby"
   ],
@@ -20,7 +19,20 @@
     "start": "npm run develop",
     "serve": "npm run build && gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "npm run build && gh-pages -d public -b gh-pages"
+  },
+  "engines": {
+    "node": ">=18 <19",
+    "npm": ">=8 <11"
+  },
+  "overrides": {
+    "cheerio": "1.0.0-rc.10",
+    "terser-webpack-plugin": {
+      "schema-utils": "^3.3.0"
+    }
+  },
+  "resolutions": {
+    "cheerio": "1.0.0-rc.10"
   },
   "engines": {
     "node": ">=18 <19",
