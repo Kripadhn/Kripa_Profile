@@ -1,5 +1,5 @@
 ---
-date: '2025-06-17'
+date: '2025-06-18'
 title: 'Video-to-Text Translation and Quiz Generation'
 github: 'https://github.com/Kripadhn/GenAI-Product-AIVideoSummarization'
 external: ''

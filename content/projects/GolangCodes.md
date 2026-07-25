@@ -1,5 +1,5 @@
 ---
-date: '2022-02-01'
+date: '2025-02-01'
 title: 'Learn Beginner Golang'
 github: 'https://github.com/chandrikadeb7/learning-easy-golang'
 external: ''

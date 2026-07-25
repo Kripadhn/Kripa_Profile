@@ -1,5 +1,5 @@
 ---
-date: '2019-12-12'
+date: '2025-12-12'
 title: 'Face Recognition in Python'
 github: 'https://github.com/chandrikadeb7/Face-Recognition-in-Python'
 external: ''
