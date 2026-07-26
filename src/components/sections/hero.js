@@ -35,12 +35,12 @@ const StyledTitle = styled.h2`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 65px;
   line-height: 1.1;
   color: ${colors.slate};
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
+  ${media.desktop`font-size: 65px;`};
+  ${media.tablet`font-size: 55px;`};
+  ${media.phablet`font-size: 45px;`};
   ${media.phone`font-size: 40px;`};
 `;
 const StyledDescription = styled.div`
