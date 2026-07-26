@@ -10,4 +10,4 @@ company: ''
 showInProjects: true
 ---
 
-Multimodal Retrieval-Augmented Generation (RAG) system for a restaurant aggregator app, to deliver precise food recommendations tailored to individual preferences and dietary needs.
+LLM and RAG based for a restaurant aggregator platform, to deliver precise food recommendations tailored to individual preferences and dietary needs.

@@ -13,4 +13,4 @@ company: ''
 showInProjects: true
 ---
 
-This project provides a Flask API for processing video files to generate text transcriptions using the Whisper model and subsequently creating quizzes with the transcriptions.
+Provides a Flask API for processing video files to generate text transcriptions and subsequently creating quizzes with the transcriptions.
