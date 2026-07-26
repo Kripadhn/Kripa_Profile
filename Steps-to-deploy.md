@@ -2,7 +2,7 @@
 
   - git clone
 
-  - cd chandrikadeb7.github.io
+  - cd kripadhn.github.io/Kripa_Profile/
 
   - source ~/.nvm/nvm.sh
 
