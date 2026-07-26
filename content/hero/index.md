@@ -1,7 +1,7 @@
 ---
 title: 'Namaste! My name is'
 name: 'Kripa Shankar'
-subtitle: 'Tech Enthusiast | AI - ML Voice 🌟| IIMK Alumnus | Strategist & Consultant '
+subtitle: 'Tech Enthusiast | AI-ML Voice | IIMK Alumnus | Strategist & Consultant'
 buttonText: 'Contact Me'
 ---
 
