@@ -1,11 +1,11 @@
 ---
-title: 'Hello World! This is'
+title: 'Namaste! My name is'
 name: 'Kripa Shankar'
-subtitle: 'I am curious about learning new skills'
+subtitle: 'Tech Enthusiast | AI - ML Voice 🌟| IIMK Alumnus | Strategist & Consultant '
 buttonText: 'Contact Me'
 ---
 
-I'm an India based Technologist with a goal-driven creative mindset and passion for learning and innovating.
+I'm an India based Technologist, an alumnus of IIM Kozhikode and GIET University currently spearheading impactful digital marketing initiatives Tao Digital Solutions.
 
 With 15+ years of experience designing and delivering enterprise-scale AI platforms, cloud-native systems, and distributed architectures across healthcare, automotive, BFSI and retail domains in software product R&D and technology consulting. 
 
