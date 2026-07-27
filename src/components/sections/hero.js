@@ -34,14 +34,14 @@ const StyledTitle = styled.h2`
   ${media.phablet`font-size: 50px;`};
   ${media.phone`font-size: 40px;`};
 `;
-const StyledSubtitle = styled.h3`
-  font-size: 65px;
+const StyledSubtitle = styled.h4`
+  font-size: 55px;
   line-height: 1.1;
   color: ${colors.slate};
-  ${media.desktop`font-size: 65px;`};
-  ${media.tablet`font-size: 55px;`};
-  ${media.phablet`font-size: 45px;`};
-  ${media.phone`font-size: 40px;`};
+  ${media.desktop`font-size: 50px;`};
+  ${media.tablet`font-size: 45px;`};
+  ${media.phablet`font-size: 40px;`};
+  ${media.phone`font-size: 30px;`};
 `;
 const StyledDescription = styled.div`
   margin-top: 25px;
