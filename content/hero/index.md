@@ -5,7 +5,7 @@ subtitle: 'Tech Enthusiast | AI-ML Voice | IIMK Alumnus | Strategist & Consultan
 buttonText: 'Contact Me'
 ---
 
-I'm an India based Technologist, an alumnus of IIM Kozhikode and GIET University currently spearheading impactful digital marketing initiatives Tao Digital Solutions.
+I'm an India based Technologist, an alumnus of IIM Kozhikode and GIET University currently spearheading impactful digital transformation initiatives at Tao Digital Solutions for client Konovo (in Life-sciences and Healthcare).
 
 With 15+ years of experience designing and delivering enterprise-scale AI platforms, cloud-native systems, and distributed architectures across healthcare, automotive, BFSI and retail domains in software product R&D and technology consulting. 
 
