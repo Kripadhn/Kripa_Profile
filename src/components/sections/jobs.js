@@ -19,11 +19,12 @@ const StyledTabs = styled.div`
   `};
 `;
 const StyledTabList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  overflow: hidden;
+  display: block;
+  position: relative;
+  width: max-content;
+  z-index: 3;
   padding: 0;
-  margin: 20px 0 0 0;
+  margin: 0;
   list-style: none;
 
   ${media.thone`
