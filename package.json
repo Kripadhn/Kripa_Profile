@@ -11,7 +11,7 @@
     "gatsby"
   ],
   "license": "MIT",
-  "preinstall": "node -e \"const major = parseInt(process.versions.node.split('.')[0], 10); if (major < 18 || major >= 19) { console.error('Please use Node 18.x for this project'); process.exit(1); }\"",
+  "preinstall": "node -e \"const major = parseInt(process.versions.node.split('.')[0], 10); if (major < 20 || major >= 21) { console.error('Please use Node 20.x for this project'); process.exit(1); }\"",
   "scripts": {
     "build": "gatsby clean && gatsby build --prefix-paths",
     "develop": "gatsby clean && gatsby develop",
@@ -35,7 +35,7 @@
     "cheerio": "1.0.0-rc.10"
   },
   "engines": {
-    "node": ">=18 <19",
+    "node": ">=20 <21",
     "npm": ">=8 <11"
   },
   "overrides": {
