@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Finpilot Agentic Banking Platform'
-cover: 'Finpilot Display.png'
+cover: 'Finpilot-Display.png'
 github: 'https://github.com/Kripadhn/Finpilot-AI'
 external: ''
 tech:
