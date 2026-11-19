@@ -2,7 +2,7 @@
 date: '2021-07-06'
 title: 'Senior Technical Lead'
 company: 'EY'
-range: 'July 2021 - Present'
+range: 'July 2021 - March 2024'
 url: 'https://www.ey.com/en_in'
 ---
 
@@ -14,11 +14,11 @@ url: 'https://www.ey.com/en_in'
 
 - Architected end-to-end cloud and AI platforms on Azure and AWS , enabling real-time analytics, responsible AI implementation, observability, and scalable production deployments
 
-- Built and optimized GenAI solutions leveraging prompt engineering, fine-tuning, agentic AI, "LLMs (SageMaker, Bedrock)", reducing model training time by 40% and improving performance
+- Built and optimized GenAI solutions leveraging prompt engineering, fine-tuning, agentic AI, LLMs on SageMaker, Bedrock, reducing model training time by 40% and improving performance
 
 - Established production-grade MLOps and RAG pipelines using Azure CLI, Cosmos DB, Azure SQL DB, Azure ML, Databricks, ADF, Docker, delivering multimodal RAG systems and compliant AI/ML lifecycle management
 
-- Delivered scalable data, API, and serverless solutions with ADF, Pandas/NumPy, Azure Functions, Azure APIM , .Net Core, cutting preprocessing time by 40%, processing latency by 50%, and ensuring GDPR/HIPAA compliance
+- Delivered scalable data, API, and serverless solutions with ADF, Pandas/NumPy, Azure Functions, Azure APIM , .Net Core, cutting preprocessing time by 40%, processing latency by 50%, and ensuring GDPR and HIPAA compliance
 
 - Built microservices API based application and deployed to Azure cloud platform which helped achieve project objectives
 

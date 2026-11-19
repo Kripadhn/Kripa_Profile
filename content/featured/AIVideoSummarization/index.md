@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '1'
 title: 'AI Video Summarization'
 cover: 'AISum1.png'
 github: 'https://github.com/Kripadhn/GenAI-Product-AIVideoSummarization'

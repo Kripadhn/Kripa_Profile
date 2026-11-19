@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Financial Forecasting System'
 cover: 'FF1.png'
 github: 'https://github.com/Kripadhn/FinancialForecasting-MLModel'

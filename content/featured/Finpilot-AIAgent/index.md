@@ -1,7 +1,7 @@
 ---
-date: '2'
+date: '4'
 title: 'Finpilot Agentic Banking Platform'
-cover: 'Finpilot-Display.png'
+cover: 'FinPilot-Display.png'
 github: 'https://github.com/Kripadhn/Finpilot-AI'
 external: ''
 tech:
@@ -16,4 +16,4 @@ tech:
 showInProjects: true
 ---
 
-FinPilot AI is an agentic AI simulation platform designed to automate and orchestrate financial workflows using LLM-powered agents, tools, structured reasoning, and evaluation-driven development 
+FinPilot AI is an agentic AI simulation platform designed to automate and orchestrate financial workflows using LLM-powered agents, tools, structured reasoning, and evaluation-driven development. 
