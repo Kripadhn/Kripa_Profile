@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '5'
 title: 'Customer Support Agent'
 cover: 'CSA1.png'
 github: 'https://github.com/Kripadhn/CustomerSupportAgent-AIProduct'
@@ -9,7 +9,7 @@ tech:
   - LLM, RAG
   - FAISS
   - OpenAI
-  - Azure ML
+  - Azure ML 
   - matplotlib
 showInProjects: true
 ---
